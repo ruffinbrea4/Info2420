@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>HTML Linking Practice Hiking Page</title>
+</head>
+<body >
+<h2> Hiking and Camping Page</h2>
+
+<h4> Places I like to camp and hike</h4>
+<ul>
+   <li>Fish Lake</li>
+   <li>Diamond Fork </li>
+   <li> 12 Mile Canyon</li>
+</ul>
+
+<p><a href="../index.html">Return to Home</a></p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>HTML Linking Practice Movies Page</title>
+</head>
+<body >
+<h2> Movie Page</h2>
+
+<h4> Movies I like</h4>
+<ul>
+   <li>Hunt for Red October</li>
+   <li> Shreik</li>
+   <li> Sound of Music</li>
+</ul>
+
+<p><a href="../index.html">Return Home</a></p>
+
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>HTML Linking Practice Reading Page</title>
+</head>
+<body >
+
+<h2> Reading Page</h2>
+
+<h4> Books I like to Read</h4>
+<ul>
+   <li>Harry Potter</li>
+   <li>Lord of the Rings </li>
+   <li> The Client</li>
+</ul>
+
+<p> <a href="../../index.html"> Return Home</a> </p>
+
+</body>
+</html>
+
+
