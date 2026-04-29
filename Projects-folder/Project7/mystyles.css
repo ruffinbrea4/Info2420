@@ -1,3 +1,131 @@
 @charset "UTF-8";
-/* CSS Document */
+body {
+	margin:0;
+	background-color: #e3cebf0;
+	font-family:Arial, Helvetica, sans-serif;
+	height:auto;
+}
 
+header {
+	width: 900px;
+	height: 150px;
+	background-color: #CCC;
+	text-align: center;
+	padding-top: 10px;
+	border: dashed medium #008000;
+	margin:auto;
+}
+
+section {
+	width: 900px;
+	background-image:url('Images/2colback.jpg');
+	background-repeat:repeat-y;
+	overflow: hidden;
+	border-right: dashed medium navy;
+	border-left: dashed medium navy;
+	padding-left: 10px;
+	margin:auto;
+}
+
+nav {
+	float: left;
+	width: 110px;
+	padding-left: 10px;
+}
+
+article {
+	float: left;
+	width: 600px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	width: 900px;
+	height: 70px;
+	border: medium dashed #000080;
+	background-color: #CCC;
+	margin: auto;
+}
+
+.logoleft {
+	float: left;
+	padding-top: 30px;
+	padding-left: 15px;
+}
+
+nav a {
+	border: 6px inset #ccc;
+	background-color: maroon;
+	line-height: 250%;
+	color: #FFF;
+	font-weight: bold;
+	text-align: left;
+	margin-left: auto;
+	text-decoration: none;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+	
+}
+
+nav a:hover {
+	color: yellow;
+	border: 2px outset #CCC;
+}
+
+
+h1 {
+	color: maroon;
+	text-align: center;
+	font-size: xx-large;
+
+}
+
+p {
+	color: #731315;
+   text-align: center;
+}
+
+#thumbs, #image {
+
+		width: 900px;
+		text-align: center;
+		margin: 0 auto 0 auto;
+		color: #000;
+
+	}
+
+
+
+	#thumbs {
+
+		margin-top: 10px;
+
+	}
+
+
+
+			
+
+	#thumbs img {
+
+		border: solid 1px #000;
+
+		margin: 5px;
+
+	}
+
+
+
+	#image{
+
+		height:500px;
+
+	}
+
+
+
+	.instructions{
+
+		font-style:italic;
+
+	}

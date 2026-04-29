@@ -54,13 +54,17 @@ footer {
 }
 
 nav a {
-	border: 2px inset #ccc;
+	border: 5px inset #ccc;
 	background-color: maroon;
 	line-height: 250%;
 	color: #FFF;
 	font-weight: bold;
 	font-size: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
 	text-decoration: none;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+	
 }
 
 nav a:hover {
