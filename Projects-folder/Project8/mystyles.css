@@ -1,46 +1,68 @@
-﻿body {
-	margin:0;
-	background-image:url('Images/background.gif');
+@charset "UTF-8";
+body {
+	margin:3px;
+	background-color: #e3cebf;
 	font-family:Arial, Helvetica, sans-serif;
 	height:auto;
 }
 
 header {
-	width: 760px;
+	width: 900px;
 	height: 150px;
 	background-color: #CCC;
 	text-align: center;
 	padding-top: 10px;
-	border: dashed medium navy;
+	border: dashed medium #008000;
 	margin:auto;
 }
 
 section {
-	width: 760px;
-	background-image:url('Images/inner_background.gif');
+	width: 900px;
+	background-image:url('2colback.jpg');
 	background-repeat:repeat-y;
 	overflow: hidden;
 	border-right: dashed medium navy;
 	border-left: dashed medium navy;
+	padding-left: 10px;
 	margin:auto;
 }
 
 nav {
 	float: left;
 	width: 110px;
-	padding-left: 10px;
+
 }
 
 article {
-	float: left;
-	width: 600px;
-	padding: 5px;
+	float: right;
+	width: 670px;
+	text-align: right;
+	
+}
+
+h1 {
+	color: maroon;
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: #444;
+	margin-top: 20px;
 	text-align: center;
 }
 
+p {
+	color: #731315;
+	margin-bottom: 15px;
+	text-align: center;
+}
+	
+
 footer {
 	text-align: center;
-	width: 760px;
+	width: 900px;
 	height: 70px;
 	border: medium dashed #000080;
 	background-color: #CCC;
@@ -54,21 +76,188 @@ footer {
 }
 
 nav a {
-	border: 5px inset #ccc;
+	border-radius: 6px inset #ccc;
 	background-color: maroon;
 	line-height: 250%;
 	color: #FFF;
 	font-weight: bold;
-	font-size: 17px;
-	padding-left: 10px;
-	padding-right: 10px;
+	text-align: left;
+	margin-left: auto;
+	margin-bottom: 10px;
 	text-decoration: none;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
 	
 }
 
 nav a:hover {
-	color: yellow;
+	color: #ffeb99;
 	border: 2px outset #CCC;
 }
 
+
+#thumbs, #image {
+
+		width: 900px;
+		text-align: center;
+		margin: 0 auto 0 auto;
+		color: #000;
+
+	}
+
+
+
+	#thumbs {
+
+		margin-top: 10px;
+
+	}
+
+
+
+			
+
+	#thumbs img {
+
+		border: solid 1px #000;
+
+		margin: 5px;
+
+	}
+
+
+
+	#image{
+
+		height:500px;
+
+	}
+
+
+
+	.instructions{
+
+		font-style:italic;
+
+	}
+h1 {color: #003f13;
+
+    background-color: #89d1ae;
+
+    font-size: 235%;
+
+    padding: 10px;
+
+    text-align: center;
+
+    }
+
+h2 {color: #a84545;
+
+    font-size: 150%;
+
+    text-align: center;
+
+    }
+
+p {margin-left: 1em;
+
+    }
+
+
+
+ul {margin-left: 1.5em;
+
+    }
+
+a:link {color: #1d6700;
+
+         }
+
+a:visited {color: #155f98b6;
+
+    }
+
+a:hover {color: #b12610;
+
+         }
+
+.thumbnailright {float: right;
+
+            padding: 10px;
+
+            }
+
+.thumbnailleft {float: left;
+
+            padding: 10px;
+
+        }
+td.pets {font-size: 20px;
+
+        width: 30%;
+
+        font-weight: bold;
+
+}
+
+td.price {color:#004406;
+
+        
+
+}
+
+
+
+td {font-size: 100%;
+
+    background-color: #7dc262;
+
+    text-align: center;
+
+    font-family:'Times New Roman', Times, serif;
+
+    border: 2px, #5e8c6c;
+
+    border-radius: 10px;
+
+    padding:10px;
+
+    width: 33.3%;
+
+    }
+
+th {border: 2px, #126c20;
+
+    font-size: 125%;
+
+    background-color: #1D6700;
+
+    padding: 5px;
+
+    border-radius: 10px;
+
+    width: 33.3%;
+
+    }
+
+caption{font-size: 120%;
+
+        font-weight: bold;
+
+        background-color: #7dc262;
+
+        border-radius: 10px;
+
+        border: 2px, solid #04600c;
+
+        padding:5px;
+
+        }
+table, td, th {border: 1px, #126c30;
+
+                width: 100%;
+
+                color: black;
+
+                font-family: 'Times New Roman', Times, serif;   
+	
